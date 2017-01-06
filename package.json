@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "ls -la"
+    "build": "ls -la",
+    "test": "echo 'npm test'",
+    "lint": "echo 'npm run lint'"
   },
   "dependencies": {
     "express": "^4.13.3"
