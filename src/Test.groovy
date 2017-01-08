@@ -2,10 +2,14 @@
  * Created by hoanvo on 1/8/2017.
  */
 class Test implements Serializable {
-    Test() {
+    def ctx
+
+    Test(ctx) {
+        this.ctx = ctx
     }
 
     void printST() {
-        println 'ccccccccccccccccccccccccccccc'
+        this.ctx.sh 'echo "ccccccccccccccccccccccccccccc"'
     }
 }
+
