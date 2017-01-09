@@ -1,6 +1,6 @@
 {
   "name": "Node.js ddd d",
-  "description": "A bar ebone s Node.js app using Express 4",
+  "description": "A bar ebone s Node.js appd using Express 4",
   "repository": "https://github.com/heroku/node-js-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"]
