@@ -1,6 +1,5 @@
 pipeline {
   agent any
-
   stages {
     stage('Build') {
       steps {
@@ -10,12 +9,12 @@ pipeline {
     stage('Test') {
       steps {
         sh 'echo check'
-//        junit 'reports/**/*.xml'
       }
     }
     stage('Deploy') {
       steps {
         sh 'echo Deploy'
+        archiveArtifacts(excludes: '12', artifacts: '1233')
       }
     }
   }
